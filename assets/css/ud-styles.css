@@ -187,6 +187,35 @@ p {
   color: var(--white);
 }
 
+.ud-hero-title.main-title {
+  font-size: 4.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ud-hero-title.subtitle {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #e6e6e6;
+}
+
+.ud-hero-title.subtitle-2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: #cccccc;
+}
+
 .back-to-top:hover {
   color: var(--white);
   background: var(--heading-color);
